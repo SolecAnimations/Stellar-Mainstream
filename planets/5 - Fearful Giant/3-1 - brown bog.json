@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Brown Bog",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceGravity": 9,
+		"surfaceSize": 60,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 2000,
+		"primaryBody": "Red Geode",
+		"isTidallyLocked": true,
+		"isMoon": false,
+		"siderealPeriod": 2.5
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/BB_h.png",
+		"textureMap": "planets/assets/BB_c.png",
+		"minHeight": 60,
+		"maxHeight": 80
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/electrum.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/electrum.png",
+			"scale": 0.4,
+			"manualPosition": {
+				"x": 400,
+				"y": -110
+			},
+			"manualNavigationPosition": {
+				"x": 3,
+				"y": 0
+			}
+		}
+	}
+}

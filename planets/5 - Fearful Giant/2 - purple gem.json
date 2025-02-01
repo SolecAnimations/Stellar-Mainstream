@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Purple Gem",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceGravity": 9,
+		"surfaceSize": 1500,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 50000,
+		"primaryBody": "Fearful Giant",
+		"isTidallyLocked": true,
+		"isMoon": false,
+		"siderealPeriod": 2.5
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/PG_h.png",
+		"textureMap": "planets/assets/PG_c.png",
+		"minHeight": 1000,
+		"maxHeight": 1550
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/electrum.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/electrum.png",
+			"scale": 0.4,
+			"manualPosition": {
+				"x": 400,
+				"y": -110
+			},
+			"manualNavigationPosition": {
+				"x": 3,
+				"y": 0
+			}
+		}
+	}
+}

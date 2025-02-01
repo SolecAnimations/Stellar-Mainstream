@@ -1,0 +1,54 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Salty Lakes",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceGravity": 6,
+		"surfaceSize": 300,
+		"hasMapMarker": true,
+		"ambientLight": 0.3
+	},
+	"Orbit": {
+		"semiMajorAxis": 17000,
+		"inclination": 70,
+		"primaryBody": "Spectral Magnificence",
+		"isTidallyLocked": true,
+		"isMoon": false,
+		"siderealPeriod": 1.75
+	},
+	"Atmosphere": {
+		"size": 350,
+		"fogSize": 350,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 83,
+			"g": 200,
+			"b": 224,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 83,
+			"g": 165,
+			"b": 224,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/SO_c.png",
+		"textureMap": "planets/assets/SO_h.png",
+		"minHeight": 240,
+		"maxHeight": 350
+	},
+	"Water": {
+		"size": 280
+	},
+	"Props": {
+		"scatter": [
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"count": 70,
+				"minHeight": 231
+			}
+		]
+	}
+}

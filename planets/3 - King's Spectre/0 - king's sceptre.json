@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "King's Sceptre",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceGravity": 100,
+		"surfaceSize": 4100,
+		"hasMapMarker": true,
+		"gravityFallOff": "inverseSquared",
+	},
+	"Orbit": {
+        "isStatic": true,
+		"inclination" : 40,
+        "semiMajorAxis": 4500000,
+        "primaryBody": "Sun",
+        "showOrbitLine": false,
+        "trueAnomaly": 20
+			},
+	"Atmosphere": {
+		"size": 2100,
+		"fogTint": {
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"a": 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 2100
+	},
+	"Star": {
+		"size": 4000,
+		"tint": {
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"a": 255
+		},
+		"solarLuminosity": 0.8,
+		"lightRadius": 50000,
+		"lifespan": 20,
+		"stellarRemnantType": "pulsar"
+	}
+}

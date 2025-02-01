@@ -1,0 +1,41 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Rocky Abyss",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceGravity": 9,
+		"surfaceSize": 313,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 1000,
+		"primaryBody": "Eternal Ocean",
+		"isTidallyLocked": true,
+		"isMoon": false,
+		"siderealPeriod": 2.5,
+		"inclination": 70
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/RA_h.png",
+		"textureMap": "planets/assets/RA_c.png",
+		"minHeight": 40,
+		"maxHeight": 100
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/electrum.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/electrum.png",
+			"scale": 0.4,
+			"manualPosition": {
+				"x": 400,
+				"y": -110
+			},
+			"manualNavigationPosition": {
+				"x": 3,
+				"y": 0
+			}
+		}
+	}
+}

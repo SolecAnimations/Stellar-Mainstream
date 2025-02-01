@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Blue Behemoth",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceGravity": 100,
+		"surfaceSize": 6100,
+		"hasMapMarker": true,
+		"gravityFallOff": "inverseSquared",
+	},
+	"Orbit": {
+        "isStatic": false,
+		"inclination" : 60,
+        "semiMajorAxis": 800000,
+        "primaryBody": "BlueYellow",
+        "showOrbitLine": false,
+        "trueAnomaly": 180
+			},
+	"Atmosphere": {
+		"size": 6100,
+		"fogTint": {
+			"r": 61,
+			"g": 184,
+			"b": 255,
+			"a": 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 6100
+	},
+	"Star": {
+		"size": 6000,
+		"tint": {
+			"r": 61,
+			"g": 100,
+			"b": 255,
+			"a": 255
+		},
+		"solarLuminosity": 0.8,
+		"lightRadius": 50000,
+		"lifespan": 20,
+		"stellarRemnantType": "neutronStar"
+	}
+}

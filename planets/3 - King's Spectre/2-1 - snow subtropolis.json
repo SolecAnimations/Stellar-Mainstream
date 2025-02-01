@@ -1,0 +1,154 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Snow Subtropolis",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceSize": 950,
+		"surfaceGravity": 24,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 8000,
+		"trueAnomaly": 213,
+		"primaryBody": "SnowImmunity",
+		"isMoon": false,
+		"siderealPeriod": 4,
+		"inclination": 50
+	},
+	"Atmosphere": {
+		"size": 950,
+		"fogSize": 950,
+		"hasRain": false,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 5,
+			"g": 0,
+			"b": 255,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 0,
+			"g": 0,
+			"b": 255,
+			"a": 255
+		},
+		"clouds": {
+			"texturePath": "planets/assets/SS_cc.png",
+			"outerCloudRadius": 949,
+			"innerCloudRadius": 849,
+			"tint": {
+				"r": 0,
+				"g": 0,
+				"b": 255,
+				"a": 255
+			}
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/SS_h.png",
+		"textureMap": "planets/assets/SS_c.png",
+		"minHeight": 500,
+		"maxHeight": 700
+	},
+	"Props": {
+		"tornados": [
+			{
+				"type": "upwards",
+				"elevation": 0,
+				"fluidType": "water",
+				"height": 0,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 0,
+				"fluidType": "water",
+				"height": 0,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 0,
+				"fluidType": "water",
+				"height": 0,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 500,
+				"fluidType": "water",
+				"height": 350,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 0,
+				"fluidType": "water",
+				"height": 0,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 500,
+				"fluidType": "water",
+				"height": 350,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 0,
+				"fluidType": "water",
+				"height": 0,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 0,
+				"fluidType": "water",
+				"height": 0,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			}
+		]
+	}
+}

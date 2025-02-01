@@ -1,0 +1,52 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Spectral Magnificence",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceGravity": 100,
+		"surfaceSize": 2100,
+		"hasMapMarker": true,
+		"gravityFallOff": "inverseSquared",
+	},
+	"Orbit": {
+        "isStatic": true,
+		"inclination" : 60,
+        "semiMajorAxis": 6000000,
+        "primaryBody": "Sun",
+        "showOrbitLine": false,
+        "trueAnomaly": 60
+			},
+    "Rings": [
+      {
+        "fluidType": "sand",
+        "innerRadius": 2500,
+        "outerRadius": 30000,
+        "texture": "planets/assets/SMdisk.png",
+        "inclination": 70,
+      }
+    ],
+	"Atmosphere": {
+		"size": 2100,
+		"fogTint": {
+			"r": 235,
+			"g": 85,
+			"b": 52,
+			"a": 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 2100
+	},
+	"Star": {
+		"size": 2000,
+		"tint": {
+			"r": 255,
+			"g": 193,
+			"b": 77,
+			"a": 255
+		},
+		"solarLuminosity": 0.8,
+		"lightRadius": 50000,
+		"lifespan": 20,
+		"stellarRemnantType": "neutronStar"
+	}
+}

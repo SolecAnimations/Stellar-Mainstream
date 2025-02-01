@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Forming Possibilities",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceGravity": 9,
+		"surfaceSize": 313,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 8000,
+		"primaryBody": "Spectral Magnificence",
+		"isTidallyLocked": true,
+		"isMoon": false,
+		"siderealPeriod": 2.5,
+		"inclination": 70
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/FP_h.png",
+		"textureMap": "planets/assets/FP_c.png",
+		"minHeight": 250,
+		"maxHeight": 350
+	},
+	"Lava": {
+		"size": 300
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/electrum.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/electrum.png",
+			"scale": 0.4,
+			"manualPosition": {
+				"x": 400,
+				"y": -110
+			},
+			"manualNavigationPosition": {
+				"x": 3,
+				"y": 0
+			}
+		}
+	}
+}

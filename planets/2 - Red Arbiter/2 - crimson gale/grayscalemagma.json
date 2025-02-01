@@ -1,0 +1,81 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Grayscale Magma",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceGravity": 6,
+		"surfaceSize": 200,
+		"hasMapMarker": true,
+		"ambientLight": 0.3
+	},
+	"Orbit": {
+		"semiMajorAxis": 2000,
+		"inclination": 10,
+		"primaryBody": "Crimson Gale",
+		"isTidallyLocked": false,
+		"isMoon": true,
+		"siderealPeriod": 1.5
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/grayscalemagma_h.png",
+		"textureMap": "planets/assets/grayscalemagma_t.png",
+		"minHeight": 150,
+		"maxHeight": 200
+	},
+	"Props": {
+		"volcanoes": [
+			{
+				"position": {
+					"x": 63.02471,
+					"y": -145.0389,
+					"z": -86.6165
+				},
+				"stoneTint": {
+					"r": 66,
+					"g": 46,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"position": {
+					"x": 30.09184,
+					"y": 51.26461,
+					"z": -166.3753
+				},
+				"stoneTint": {
+					"r": 66,
+					"g": 46,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"position": {
+					"x": -77.28983,
+					"y": -30.41959,
+					"z": -149.155
+				},
+				"stoneTint": {
+					"r": 66,
+					"g": 46,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"position": {
+					"x": -128.8754,
+					"y": 116.2952,
+					"z": 35.1969
+				},
+				"stoneTint": {
+					"r": 66,
+					"g": 46,
+					"b": 44,
+					"a": 255
+				}
+			}
+		]
+	}
+}

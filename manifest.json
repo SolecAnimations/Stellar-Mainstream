@@ -1,0 +1,9 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": "Solec",
+  "name": "Stellar Mainstream",
+  "uniqueName": "Solec_Stelmain",
+  "version": "1.0.0",
+  "owmlVersion": "2.7.5",
+  "dependencies": [ "xen.NewHorizons" ]
+}

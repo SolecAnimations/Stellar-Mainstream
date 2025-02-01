@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Chaos Lands",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceGravity": 9,
+		"surfaceSize": 630,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 10000,
+		"primaryBody": "Blue Behemoth",
+		"isTidallyLocked": true,
+		"isMoon": false,
+		"siderealPeriod": 2.5
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/CL_c.png",
+		"textureMap": "planets/assets/CL_c.png",
+		"minHeight": 200,
+		"maxHeight": 350
+	},
+	"Lava": {
+		"size": 250
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/logs/entries/",
+		"xmlFile": "planets/logs/electrum.xml",
+		"mapMode": {
+			"revealedSprite": "planets/logs/mapmode/electrum.png",
+			"scale": 0.4,
+			"manualPosition": {
+				"x": 400,
+				"y": -110
+			},
+			"manualNavigationPosition": {
+				"x": 3,
+				"y": 0
+			}
+		}
+	}
+}

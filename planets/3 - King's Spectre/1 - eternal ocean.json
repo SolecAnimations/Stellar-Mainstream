@@ -1,0 +1,54 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Eternal Ocean",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceGravity": 6,
+		"surfaceSize": 700,
+		"hasMapMarker": true,
+		"ambientLight": 0.3
+	},
+	"Orbit": {
+		"semiMajorAxis": 13000,
+		"inclination": 50,
+		"primaryBody": "King's Sceptre",
+		"isTidallyLocked": false,
+		"isMoon": false,
+		"siderealPeriod": 1.75
+	},
+	"Atmosphere": {
+		"size": 650,
+		"fogSize": 650,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 83,
+			"g": 224,
+			"b": 200,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 83,
+			"g": 224,
+			"b": 200,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/EE_c.png",
+		"textureMap": "planets/assets/EE_h.png",
+		"minHeight": 240,
+		"maxHeight": 350
+	},
+	"Water": {
+		"size": 560
+	},
+	"Props": {
+		"scatter": [
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"count": 0,
+				"minHeight": 0
+			}
+		]
+	}
+}

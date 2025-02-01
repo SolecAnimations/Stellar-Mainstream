@@ -1,0 +1,24 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "BlueYellow",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceSize": 0,
+		"surfaceGravity": 0
+	},
+	"Orbit": {
+        "isStatic": true,
+		"inclination" : 60,
+        "semiMajorAxis": 8000000,
+        "primaryBody": "Sun",
+        "showOrbitLine": false,
+        "trueAnomaly": 180
+	},
+	"FocalPoint": {
+		"primary": "Blue Behemoth",
+		"secondary": "Yellow Companion"
+	},
+	"ReferenceFrame": {
+		"enabled": false
+	}
+}

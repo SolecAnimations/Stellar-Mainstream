@@ -1,0 +1,53 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Ringed Giant",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceSize": 800,
+		"surfaceGravity": 20,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 16500,
+		"trueAnomaly": 107,
+		"primaryBody": "Red Arbiter",
+		"isMoon": false,
+		"siderealPeriod": 3.5
+	},
+	"Atmosphere": {
+		"size": 800,
+		"fogSize": 800,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 12,
+			"g": 54,
+			"b": 255,
+			"a": 87
+		},
+		"fogTint": {
+			"r": 49,
+			"g": 222,
+			"b": 181,
+			"a": 255
+		},
+		"clouds": {
+			"texturePath": "planets/assets/parentplanet.png",
+			"outerCloudRadius": 799,
+			"innerCloudRadius": 629,
+			"tint": {
+				"r": 85,
+				"g": 135,
+				"b": 127,
+				"a": 255
+			}
+		}
+	},
+	"Rings": [
+		{
+			"innerRadius": 1550,
+			"outerRadius": 2050,
+			"texture": "planets/assets/parentplanet_r.png"
+		}
+	]
+}

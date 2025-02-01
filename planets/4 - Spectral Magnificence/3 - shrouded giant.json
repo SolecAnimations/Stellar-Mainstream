@@ -1,0 +1,154 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Shrouded Giant",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceSize": 950,
+		"surfaceGravity": 24,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 31000,
+		"trueAnomaly": 213,
+		"primaryBody": "Spectral Magnificence",
+		"isMoon": false,
+		"siderealPeriod": 4,
+		"inclination": 70
+	},
+	"Atmosphere": {
+		"size": 950,
+		"fogSize": 950,
+		"hasRain": true,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 175,
+			"g": 140,
+			"b": 40,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 175,
+			"g": 140,
+			"b": 40,
+			"a": 255
+		},
+		"clouds": {
+			"texturePath": "planets/assets/SG_cc.png",
+			"outerCloudRadius": 949,
+			"innerCloudRadius": 849,
+			"tint": {
+				"r": 175,
+				"g": 100,
+				"b": 40,
+				"a": 255
+			}
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/SG_h.png",
+		"textureMap": "planets/assets/SG_c.png",
+		"minHeight": 300,
+		"maxHeight": 800
+	},
+	"Props": {
+		"tornados": [
+			{
+				"type": "upwards",
+				"elevation": 500,
+				"fluidType": "water",
+				"height": 350,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 500,
+				"fluidType": "water",
+				"height": 350,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 500,
+				"fluidType": "water",
+				"height": 350,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 500,
+				"fluidType": "water",
+				"height": 350,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 500,
+				"fluidType": "water",
+				"height": 350,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 500,
+				"fluidType": "water",
+				"height": 350,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 500,
+				"fluidType": "water",
+				"height": 350,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			},
+			{
+				"type": "upwards",
+				"elevation": 500,
+				"fluidType": "water",
+				"height": 350,
+				"tint": {
+					"r": 99,
+					"g": 57,
+					"b": 44,
+					"a": 255
+				}
+			}
+		]
+	}
+}

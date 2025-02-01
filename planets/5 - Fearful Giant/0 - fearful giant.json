@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Fearful Giant",
+	"starSystem": "SolarSystem",
+	"Base": {
+		"surfaceGravity": 100,
+		"surfaceSize": 8100,
+		"hasMapMarker": true,
+		"gravityFallOff": "inverseSquared",
+	},
+	"Orbit": {
+        "isStatic": true,
+		"inclination" : 30,
+        "semiMajorAxis": 5000000,
+        "primaryBody": "Sun",
+        "showOrbitLine": false,
+        "trueAnomaly": 90
+			},
+	"Atmosphere": {
+		"size": 8100,
+		"fogTint": {
+			"r": 235,
+			"g": 85,
+			"b": 52,
+			"a": 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 2100
+	},
+	"Star": {
+		"size": 8000,
+		"tint": {
+			"r": 224,
+			"g": 94,
+			"b": 70,
+			"a": 255
+		},
+		"solarLuminosity": 0.8,
+		"lightRadius": 50000,
+		"lifespan": 20,
+		"stellarRemnantType": "neutronStar"
+	}
+}
